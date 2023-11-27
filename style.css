@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to top, #C1D750 1%, white 99%); 
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .tujuan-capaian {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tujuan,
+  .capaian {
+    flex: 0 0 calc(50% - 1rem); /* Membuat setiap elemen memiliki lebar maksimum 50%, dengan jarak 1rem */
+    margin: 1rem;
+  }
+}
+
+.goal-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capaian{
+  display: flex;
+  justify-content: space-around;
+}
+
+.capaian img{
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+}
+
+.goal-image img{
+  width:35rem;
+  height: 15rem;
+  padding: 1rem;
+}
+.kegiatan{
+  text-align: center;
+}
+
+.kegiatan img{
+  width: 10rem;
+  height: 7rem;
+  padding: 1rem;
+}
+
+.tujuan h3,
+.container h3, .container h4 {
+  text-align: center;
+}
+
+.capaian1,
+.capaian2 {
+  max-width: 50%;
+  padding: 5px;
+}
+
+.kegiatan ul {
+  display: flex;
+  flex-wrap: wrap; /* Memungkinkan baris untuk "wrap" saat tidak cukup ruang */
+  justify-content: space-around;
+  list-style: none;
+}
+
+.kegiatan li {
+  flex: 0 0 calc(33.33% - 1rem); /* Membuat setiap item memiliki lebar maksimum 33.33%, dengan jarak 1rem */
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.gambaranUmum{
+  background-color: rgba(32, 94, 3, 0.82);
+  color: azure;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.gambaranUmum img{
+    width: 100%;
+}
+
+.gambaranUmum h3{
+  padding: 2rem;
+  padding-bottom: 0.5rem;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+p{
+    text-align: center;
+}
+
+.menu{
+  font-family: 'Inter', sans-serif;
+  background-color: #D2E280;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li{
+  display: inline;
+  list-style: none;
+}
+
+.logo-kami img{
+  width: 75px;
+}
+
+.item-menu, .yayasan{
+  text-align: right;
+}
+
+.item-menu li, .yayasan li:first-child{
+  display: inline-block;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.25em 1.5rem;
+}
+
+.yayasan li:first-child{
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.item-menu li{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#page-skrg{
+  border: 1.5px solid black;
+}
+
+.yayasan{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 1rem;
+}
+
+.logo-kami{
+  max-width: 35%;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.text-logo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  font-size: 20px;
+}
+
+.text-logo li:first-child{
+  font-size: 45px;
+  font-weight: bold;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: rgb(112, 107, 107);
+}
+
+.logo-kami a:hover{
+  color: aliceblue;
+}
+
+#menu-bawah li, #yayasan-bawah li{
+  background-color: unset;
+  padding: 0rem;
+  padding-top: 1.5rem;
+}
+#yayasan-bawah{
+  font-size: 20px;
+}
+#menu-bawah img{
+  width: 25px;
+}
+
+
+.menu-bawah li{
+  display: inline;
+  list-style: none;
+  color: #D2E280;
+}
+
+.menu-bawah{
+  font-family: 'Inter', sans-serif;
+  background-color:#184D00;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .logo-kami img{
+  width: 35px;
+}
+
+footer .text-logo{
+  font-size: 10px;
+}
+
+footer .text-logo li:first-child{
+  font-size: 20px;
+}
+
+.bawah-logo li{
+  display: block;
+  padding-left: 1rem;
+}
+
+.bawah-logo li:last-child{
+  padding-bottom: 1rem;
+}
+
+.bawah-logo a{
+  color: #D2E280;
+  text-decoration: none;
+}
+
+.bawah-logo a:hover{
+  color: white;
+}
+
+.bawah-logo{
+  font-size: 15px;
+}
+
+.search {
+  display: flex;
+  justify-content: right;
+}
+
+.search li{
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.search li:first-child{
+  padding-right: 1rem;
+  padding-top: 2rem;   
+}
+
+.search form{
+  padding-bottom: 1rem;
+}
+
+.find a{
+  color: aliceblue;
+  background-color:#184D00;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.find a:visited{
+  color: aliceblue;
+}
+
+.find a:hover{
+  color: #D2E280;
+}
+
+
+/* Explore Page */
+
+.pencapaian h3{
+  font-size: 30px;
+  
+}
+
+.pencapaian{
+  background-color:#184D00;
+  color: #D2E280;
+}
+
+.pencapaian{
+  text-align: center;
+}
+
+.pencapaian img{
+  width: 15rem;
+  height: 10rem;
+  padding: 1rem;
+}
+
+.pencapaian ul {
+  display: flex;
+  flex-wrap: wrap; /* Memungkinkan baris untuk "wrap" saat tidak cukup ruang */
+  justify-content: space-around;
+  list-style: none;
+}
+
+.pencapaian li {
+  flex: 0 0 calc(33.33% - 1rem); /* Membuat setiap item memiliki lebar maksimum 33.33%, dengan jarak 1rem */
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 20px;
+}
+.partner-volunter .find{
+  text-align: left;
+  padding:2rem;
+}
+
+.container .find{
+  padding: 2rem;
+}
+
+.partner-volunter h3{
+  font-size: 30px;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+  .partner {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+
+  .volunter,
+  .amal {
+    flex: 0 0 calc(50% - 1rem); /* Membuat setiap elemen memiliki lebar maksimum 50%, dengan jarak 1rem */
+    margin: 1rem;
+  }
+}
+
+.partner table {
+  max-width: 100%; 
+  width: 100%; 
+  border-collapse: collapse;
+}
+
+.partner th, .partner td {
+  max-width: 100%;
+  width: auto; 
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+
+/* Khusus Contact Page */
+
+.platform {
+  text-align: center;
+  padding: 0.25rem;
+}
+
+.platform h3{
+  text-align: left;
+  font-size: 35px;
+  padding: 1rem;
+  padding-bottom: o.25rem;
+}
+
+.platform h4{
+  text-align: left;
+  font-size: 25px;
+  padding: 1rem;
+  padding-top: 0rem;
+}
+
+.platform img{
+  width: 7rem;
+  padding: 1rem;
+}
+
+.platform ul {
+  background-color: #184D00;
+  color:#D2E280;
+  display: flex;
+  flex-wrap: wrap; /* Memungkinkan baris untuk "wrap" saat tidak cukup ruang */
+  justify-content: space-around;
+  list-style: none;
+}
+
+.platform li {
+  flex: 0 0 calc(33.33% - 1rem); /* Membuat setiap item memiliki lebar maksimum 33.33%, dengan jarak 1rem */
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+.platform a{
+  color: aliceblue;
+  background-color:#184D00;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.platform a:visited{
+  color: aliceblue;
+}
+
+.platform a:hover{
+  color: #D2E280;
+}
+
+#formIsi{
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+#formIsi1, #formIsi2, #formIsi3, #formIsi4{
+  padding: 1rem;
+}
+
+.formTanya h4{
+  font-size: 25px;
+  padding: 2rem;
+  padding-bottom: 1rem;
+}
+
+.submitButton{
+  text-align: right;
+  padding: 1rem; 
+}
+
+.submitButton button{
+  color: aliceblue;
+  background-color: black;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+button:visited{
+  color: aliceblue;
+}
+
+button:hover{
+  color: #D2E280;
+  cursor: pointer;
+}
+
+#formIsi p{
+  text-align: left;
+}
+
+
+/* khusus Dashbord */
+
+.ket{
+  max-width: 35%;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.ket-search{
+  display: flex;
+  justify-content: space-between;
+}
+
+.go22{
+  background-color: #184D00;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.ket p, .what-is p{
+  text-align: justify;
+  padding: 1rem;
+}
+
+.what-is p{
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .what-isAll{
+    display: flex;
+    justify-content: space-between;
+  }
+.what-isAll h3{
+  text-align: left;
+  font-size: 25px;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+  .what-is,
+  .what-img {
+    flex: 0 0 calc(50% - 1rem); /* Membuat setiap elemen memiliki lebar maksimum 50%, dengan jarak 1rem */
+    margin: 1rem;
+  }
+
+  .what-img img{
+    border-radius: 2rem;
+  }
+}
+
+
+/* ===================================== Give Donation ===================== */
+
+
+.button_sekali{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 274.776px;
+  height: 72px;
+  color: white;
+  font-size: 30px;
+  /* margin-bottom: 30px; */
+  font-family: 'Inter', sans-serif;
+}
+
+.button_mingguan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 274.776px;
+  height: 72px;
+  color: white;
+  font-size: 30px;
+  /* margin-bottom: 30px; */
+  font-family: 'Inter', sans-serif;
+}
+.tombol{
+  display: flex;
+  /* background-color: aqua; */
+  margin-bottom: 30px;
+  
+}
+.tombol_sekali{
+  margin-left: -10%;
+  display: flex;
+  border-radius: 15px;
+  background-color: #184D00 ;
+  margin-right:10%;
+}
+
+.tombol_mingguan{
+  border-radius: 15px;
+  background-color: #184D00 ;
+  display: flex;
+  margin-left: 10%;
+}
+
+
+#loginButton, #logoutButton {
+  display: inline-block;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#loggedInUsername {
+  display: inline-block;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.25em 1.5rem;
+  font-weight: bold;
+}
+

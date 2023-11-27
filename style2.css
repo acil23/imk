@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ======================================== header ============================================= */
+.menu{
+  font-family: 'Inter', sans-serif;
+  background-color: #D2E280;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.menu li{
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo-kami{
+  max-width: 35%;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.logo-kami a{
+  color: black;
+  text-decoration: none;
+}
+.text-logo {
+  /* width: 50vh; */
+  /* background-color: #184D00; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  font-size: 20px;
+}
+
+.logo-kami img{
+  width: 80px;
+}
+
+.item-menu, .yayasan{
+  text-align: right;
+  /* background-color: aqua; */
+  
+}
+.item-menu a{
+  text-decoration: none;
+}
+
+.item-menu li, .yayasan li:first-child{
+  display: inline-block;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.25em 1.5rem;
+  text-decoration: none;
+}
+
+.yayasan li:first-child{
+  
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+}
+.item-menu li{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-skrg{
+  border: 1.5px solid black;
+}
+
+.yayasan{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 1rem;
+}
+
+.goodfood{
+  font-size: 45px;
+  font-weight: bold;
+}
+.item-menu a{
+  color: black;
+}
+.item-menu a:hover{
+  color: rgb(112, 107, 107);
+}
+/* ======================================================================= body ====================================== */
+body{
+  background: linear-gradient(to top, #C1D750 1%, white 99%); 
+}
+
+/* img{
+  width: 100%;
+  height: auto;
+} */
+.content-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 450px;
+
+}
+.gambar{
+  width: 55%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.content-2{
+  height: 350px;
+}
+.cont-content-2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.donasi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: #184D00 ;
+  width: 274.776px;
+  height: 72px;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: 'Inter', sans-serif;
+}
+.cont-content-2 a{
+  text-decoration: none;
+}
+
+.tulisan{
+  font-size: 20px;
+  margin: 20px;
+  font-family: 'Inter', sans-serif;
+}
+.tulisan a{
+  color: blue;
+}
+
+
+#menu-bawah li, #yayasan-bawah li{
+  background-color: unset;
+  padding: 0rem;
+  padding-top: 1.5rem;
+}
+#yayasan-bawah{
+  font-size: 20px;
+}
+#menu-bawah img{
+  width: 25px;
+}
+
+.menu-bawah li{
+  display: inline;
+  list-style: none;
+  color: #D2E280;
+}
+
+.menu-bawah{
+  font-family: 'Inter', sans-serif;
+  background-color:#184D00;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* =================================== FOOTER =============================== */
+footer .logo-kami img{
+  width: 35px;
+}
+
+footer .text-logo{
+  font-size: 10px;
+}
+
+footer .text-logo li:first-child{
+  font-size: 20px;
+}
+
+.bawah-logo li{
+  display: block;
+  padding-left: 1rem;
+}
+
+.bawah-logo li:last-child{
+  padding-bottom: 1rem;
+}
+
+.bawah-logo a{
+  color: #D2E280;
+  text-decoration: none;
+}
+
+.bawah-logo a:hover{
+  color: white;
+}
+
+.bawah-logo{
+  font-size: 15px;
+}
+
+/* ===================================== Give Donation ===================== */
+
+
+.button_sekali{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 274.776px;
+  height: 72px;
+  color: white;
+  font-size: 30px;
+  /* margin-bottom: 30px; */
+  font-family: 'Inter', sans-serif;
+}
+
+.button_mingguan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 274.776px;
+  height: 72px;
+  color: white;
+  font-size: 30px;
+  /* margin-bottom: 30px; */
+  font-family: 'Inter', sans-serif;
+}
+.tombol{
+  display: flex;
+  /* background-color: aqua; */
+  margin-bottom: 30px;
+  
+}
+.tombol_sekali{
+  margin-left: -10%;
+  display: flex;
+  border-radius: 15px;
+  background-color: #184D00 ;
+  margin-right:10%;
+}
+
+.tombol_mingguan{
+  border-radius: 15px;
+  background-color: #184D00 ;
+  display: flex;
+  margin-left: 10%;
+}
+
+
+#loginButton, #logoutButton {
+  display: inline-block;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#loggedInUsername {
+  display: inline-block;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.25em 1.5rem;
+  font-weight: bold;
+}
